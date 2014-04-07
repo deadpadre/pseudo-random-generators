@@ -10,6 +10,8 @@
 
 \begin{document}
 
+\paragraph{Определение} Последовательность $\{\alpha_n\}$ называется пренебрежимо малой, если $\forall poly(n) \; \exists N : \; \forall n > N \; |\alpha_n| < \frac{1}{poly(n)}$.
+
 \paragraph{Определение} $\{f_n\}, \; f_n : \{0, 1\}^{l(n)} \rightarrow \{0, 1\}^{m(n)}$ - семейство односторонних функций, если:
 
 \begin{itemize}
@@ -18,14 +20,11 @@
  \[
   P[C_n(f_n(x)) \in f_n^{-1}(f_n(x))] \sim 0
  \]
- 
- \item \mapsto $\dom f_n$ - доступно.
+ \item  $\uniform(\dom f_n)$ - доступно.
 
 \end{itemize}
 
 \paragraph{Определение} $d(\alpha_n, \beta_n) = \sum\limits_{x \in \dom} \frac{|\alpha_n(x) - \beta_n(x)|}{2}$
-
-\paragraph{Определение} Последовательность $\{\alpha_n\}$ называется пренебрежимо малой, если $\forall poly(n) \; \exists N : \; \forall n > N \; |\alpha_n| < \frac{1}{poly(n)}$.
 
 \paragraph{Определение} Распределение $\mu_n$ называется полиномиально моделируемым, если существует (вероятностный) алгоритм $A$, получающий на вход $\uniform p(n)$ и $\forall x \in \dom \mu_n \; \; P[A = x] = \mu_n(x)$.
 
@@ -44,8 +43,6 @@
 \paragraph{Определение} $h_n(x)$ называется трудным битом для односторонней $f_n(x)$, если $h_n(x)$ полиномиально вычислима, и $\forall \{C_n\}$ - схем полиномиального размера $P[C_n(f_n(x))=h_n(x)] \sim \frac{1}{2}$.
 
 \paragraph{Определение} Две последовательности $\alpha_n, \beta_n$ называются вычислимыми и неотличимыми, если $\forall \{C_n\}$ - схем полиномиального размера $P[C_n(\alpha_n)=1] \sim P[C_n(\beta_n)=1]$.
-
-хуй
 
 \paragraph{Лемма} Пусть $\{f_n\}$ - семейство односторонних функций, являющихся перестановками, а $\{h_n\}$ - ее трудный бит. Тогда
 \[
@@ -82,37 +79,34 @@ $\triangle$ Докажем правую эквивалентность. Поск
 
 Тогда
 
-\[
- (h(x), h) \sim\limits_{2^{\frac{s - k}{2}}} (r, h)
- 
- (h(x), h) \stackrel{~}{7546} (r, h)
-\]
+$$
+ (h(x), h) \sim_{2^{\frac{s - k}{2}}} (r, h) 
+$$
 где $\sim$ понимается в смысле $L_1$ расстояния.
 
 $\triangle$ Пусть $|H| = 2^l$. Одно из неравенств далее следует из того, что $E \xi^2 \geq (E \xi)^2$.
 
-$L_1 = \sum\limits_{h, a} |2^{-l} P_x[h(x) = a] - 2^{-l-s}| \leq
+$L_1 = \sum\limits_{h, a} |2^{-l} P_x[h(x) = a] - 2^{-l-s}| \leq$
 
-E_{h, a} |P_x[h(x) = a] 2^s - 1|$ \leq $\sqrt{E_{h, a} (P_x[h(x) = a] 2^s - 1)^2} \leq
+$E_{h, a} |P_x[h(x) = a] 2^s - 1| \leq \sqrt{E_{h, a} (P_x[h(x) = a] 2^s - 1)^2} \leq$
 
-\sqrt{E_{h, a} (2^s \sum\limits_x P(x) \mathbb{I}[h(x) = a] - 1)^2} \leq
+$\sqrt{E_{h, a} (2^s \sum\limits_x P(x) \mathbb{I}[h(x) = a] - 1)^2} \leq$
 
-\sqrt{E_{h, a} (2^s \sum\limits_{x_1} P(x_1) \mathbb{I}[h(x_1) = a] - 1)} \sqrt{E_{h, a} (2^s \sum\limits_{x_2} P(x_2) \mathbb{I}[h(x_2) = a] - 1)} =
+$\sqrt{E_{h, a} (2^s \sum\limits_{x_1} P(x_1) \mathbb{I}[h(x_1) = a] - 1)} \sqrt{E_{h, a} (2^s \sum\limits_{x_2} P(x_2) \mathbb{I}[h(x_2) = a] - 1)} =$
 
-\sqrt{E_{h, a} (\sum\limits_{x_1, x_2} 2^{2s} P(x_1) P(x_2) \mathbb{I}[h(x_1) = h(x_2) = a]) + Q} = (*)$
+$\sqrt{E_{h, a} (\sum\limits_{x_1, x_2} 2^{2s} P(x_1) P(x_2) \mathbb{I}[h(x_1) = h(x_2) = a]) + Q} = (*)$
 
 $Q$ - остаток, и $Q = E_{h, a}(1 - 2^{s + 1} \sum\limits_x P(x) \mathbb{I}[h(x)=a]) = 1 + (-2) = -1$.
 
 $E_h(\mathbb{I}[h(x_1) = h(x_2) = a]) = 2^{-2s}$, если $x_1 \neq x_2$, и $2^{-s}$ в другом случае. Для того, чтобы посчитать сумму в (*), прибавим и вычтем этот член.
 
-Из условия $H_1(x)  \geq k$ вытекает, что $\sum\limits_x P^2(x)} \leq 2^{-k}$ (используется в последнем неравенстве).
+Из условия $H_1(x)  \geq k$ вытекает, что $\sum\limits_x P^2(x) \leq 2^{-k}$ (используется в последнем неравенстве).
 
 $(*) = \sqrt{1 - (\sum\limits_{(x, x)} P^2(x) - \sum\limits_{(x, x)} 2^{s} P^2(x) ) - 1} = 
 \sqrt{\sum\limits_x (2^s - 1) P^2 (x)} =
 \sqrt{(2^s - 1) \sum\limits_x P^2(x)} \leq
 \sqrt{2^s 2^{-k}} =
-2^{\frac{s - k}{2}}
-$
+2^{\frac{s - k}{2}}$
 
 $\Box$
 \end{document}

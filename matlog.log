@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.30)  7 APR 2014 12:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.5)  7 APR 2014 13:55
 entering extended mode
  %&-line parsing enabled.
 **matlog.tex
@@ -611,32 +611,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22  \item \mapsto
-                    $\dom f_n$ - РґРѕСЃС‚СѓРїРЅРѕ.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.22  \item \mapsto $\dom f_
-                            n$ - РґРѕСЃС‚СѓРїРЅРѕ.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (10.02713pt too wide) in paragraph at lines 40--41
+Overfull \hbox (10.02713pt too wide) in paragraph at lines 39--40
 \T2A/cmr/m/n/12 тель-ность. За-ме-тим, что $\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
 P\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []^^M[
 ]\OT1/cmr/m/n/12 ) = 1] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 
@@ -647,7 +630,7 @@ P\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []^^M[
  []
 
 
-Overfull \hbox (21.45319pt too wide) in paragraph at lines 40--41
+Overfull \hbox (21.45319pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 1] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 [\OML
 /cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^L[]^^M[]\OT1/cmr/m/n/12 ) =
  1])\OMS/cmsy/m/n/12 j ^^T \OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/1
@@ -660,7 +643,7 @@ Overfull \hbox (21.45319pt too wide) in paragraph at lines 40--41
  []
 
 
-Overfull \hbox (23.75081pt too wide) in paragraph at lines 44--45
+Overfull \hbox (23.75081pt too wide) in paragraph at lines 43--44
 \OML/cmm/m/it/12 h[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \T2A/
 cmr/m/n/12 по-ли-но-ми-аль-но вы-чис-ли-ма, и $\OMS/cmsy/m/n/12 8f\OML/cmm/m/it
 /12 C[]\OMS/cmsy/m/n/12 g$ \T2A/cmr/m/n/12 - схем по-ли-но-ми-аль-но-го раз-ме-
@@ -671,166 +654,36 @@ L/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )) =
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Limit controls must follow a math operator.
-l.85  (h(x), h) \sim\limits
-                           _{2^{\frac{s - k}{2}}} (r, h)
-I'm ignoring this misplaced \limits or \nolimits command.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.86 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.87  (h(x), h) \stackrel{~}{7546}
-                                   (r, h)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 \]
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.94 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.95 E_
-       {h, a} |P_x[h(x) = a] 2^s - 1|$ \leq $\sqrt{E_{h, a} (P_x[h(x) = a] 2...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.95 E_{h, a} |P_x[h(x) = a] 2^s - 1|$ \leq
-                                            $\sqrt{E_{h, a} (P_x[h(x) = a] 2...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.95 ..., a} |P_x[h(x) = a] 2^s - 1|$ \leq $\sqrt{
-                                                  E_{h, a} (P_x[h(x) = a] 2^...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.96 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.97 \sqrt{
-           E_{h, a} (2^s \sum\limits_x P(x) \mathbb{I}[h(x) = a] - 1)^2} \leq
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.99 \sqrt{
-           E_{h, a} (2^s \sum\limits_{x_1} P(x_1) \mathbb{I}[h(x_1) = a] - 1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.101 \sqrt{
-            E_{h, a} (\sum\limits_{x_1, x_2} 2^{2s} P(x_1) P(x_2) \mathbb{I}...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.107 ...РµРєР°РµС‚, С‡С‚Рѕ $\sum\limits_x P^2(x)}
-                                                   \leq 2^{-k}$ (РёСЃРїРѕР»С...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (20.54695pt too wide) in paragraph at lines 109--115
+Overfull \hbox (20.54695pt too wide) in paragraph at lines 105--110
 []$\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^C\OT1/cmr/m/n/12 ) = [] = [] = [] \OMS/c
 msy/m/n/12 ^^T
  []
 
 [2] [3] (./matlog.aux) ) 
 Here is how much of TeX's memory you used:
- 2684 strings out of 494818
- 29799 string characters out of 1178665
- 88680 words of memory out of 3000000
- 5849 multiletter control sequences out of 15000+50000
+ 2680 strings out of 494818
+ 29747 string characters out of 1178666
+ 87680 words of memory out of 3000000
+ 5845 multiletter control sequences out of 15000+50000
  9906 words of font info for 34 fonts, out of 3000000 for 9000
  212 hyphenation exceptions out of 8191
  27i,5n,32p,689b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/richardwagner/.texmf-var/fonts/pk/ljfour/lh/lh-
-t2a/larm1200.600pk> </home/richardwagner/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-abx1200.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on matlog.pdf (3 pages, 145652 bytes).
+ </home/deadpadre/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/
+larm1200.600pk> </home/deadpadre/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.
+600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on matlog.pdf (3 pages, 142450 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
