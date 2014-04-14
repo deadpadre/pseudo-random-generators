@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.30)  8 APR 2014 14:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.30)  14 APR 2014 15:32
 entering extended mode
  %&-line parsing enabled.
 **matlog.tex
@@ -611,15 +611,23 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+Overfull \hbox (58.49837pt too wide) in paragraph at lines 17--19
+ \T2A/cmr/bx/n/12 Опре-де-ле-ние (ста-ти-сти-че-ское рас-сто-я-ние)[] $\OML/cmm
+/m/it/12 d\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^V; ^^W\OT1/cmr/m/n/12 ) [] [] =$ 
+$[][] \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A
+\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@
+ []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+ [1
 
-Overfull \hbox (10.02713pt too wide) in paragraph at lines 41--43
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (10.02713pt too wide) in paragraph at lines 67--69
 \T2A/cmr/m/n/12 тель-ность. За-ме-тим, что $\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
 P\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []^^M[
 ]\OT1/cmr/m/n/12 ) = 1] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 
@@ -630,7 +638,7 @@ P\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []^^M[
  []
 
 
-Overfull \hbox (21.45319pt too wide) in paragraph at lines 41--43
+Overfull \hbox (21.45319pt too wide) in paragraph at lines 67--69
 \OT1/cmr/m/n/12 1] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 [\OML
 /cmm/m/it/12 C[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^L[]^^M[]\OT1/cmr/m/n/12 ) =
  1])\OMS/cmsy/m/n/12 j ^^T \OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/1
@@ -643,7 +651,7 @@ Overfull \hbox (21.45319pt too wide) in paragraph at lines 41--43
  []
 
 
-Overfull \hbox (23.75081pt too wide) in paragraph at lines 46--47
+Overfull \hbox (23.75081pt too wide) in paragraph at lines 72--73
 \OML/cmm/m/it/12 h[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$ \T2A/
 cmr/m/n/12 по-ли-но-ми-аль-но вы-чис-ли-ма, и $\OMS/cmsy/m/n/12 8f\OML/cmm/m/it
 /12 C[]\OMS/cmsy/m/n/12 g$ \T2A/cmr/m/n/12 - схем по-ли-но-ми-аль-но-го раз-ме-
@@ -651,10 +659,8 @@ cmr/m/n/12 по-ли-но-ми-аль-но вы-чис-ли-ма, и $\OMS/cmsy/m/n/12 8f\OML/cmm/m/it
 L/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )) =
  []
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Overfull \hbox (7.77768pt too wide) detected at line 170
+[2] [3] [4]
+Overfull \hbox (7.77768pt too wide) detected at line 196
 \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) [] \OM
 L/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )\OML/cmm/m
 /it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) [] \OML/cmm/m/it
@@ -668,7 +674,7 @@ cmr/m/n/12 )\OML/cmm/m/it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n
  []
 
 
-Overfull \hbox (29.83769pt too wide) in paragraph at lines 180--181
+Overfull \hbox (29.83769pt too wide) in paragraph at lines 206--207
  \T2A/cmr/bx/n/12 Тео-ре-ма[] \T2A/cmr/m/n/12 Пусть су-ще-ству-ет од-но-сто-рон
 -няя функ-ция $\OML/cmm/m/it/12 f \OT1/cmr/m/n/12 : \OMS/cmsy/m/n/12 f\OT1/cmr/
 m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g[] ! f\OT1/cmr/m/
@@ -677,7 +683,7 @@ n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OMS/cmsy/m/n/12 g[]$\T2A/cmr/m/n/12
 /cmm/m/it/12 Un []\OT1/cmr/m/n/12 )) =
  []
 
-[4] [5] (./matlog.aux) ) 
+[5] [6] (./matlog.aux) ) 
 Here is how much of TeX's memory you used:
  2682 strings out of 494818
  29754 string characters out of 1178665
@@ -685,7 +691,7 @@ Here is how much of TeX's memory you used:
  5847 multiletter control sequences out of 15000+50000
  9906 words of font info for 34 fonts, out of 3000000 for 9000
  212 hyphenation exceptions out of 8191
- 27i,7n,32p,1329b,153s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,32p,1237b,185s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/richardwagner/.texmf-var/fonts/pk/ljfour/lh/lh-
 t2a/larm1200.600pk> </home/richardwagner/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
 abx1200.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.p
@@ -700,9 +706,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/p
 ublic/amsfonts/symbols/msbm10.pfb>
-Output written on matlog.pdf (5 pages, 183403 bytes).
+Output written on matlog.pdf (6 pages, 200384 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
